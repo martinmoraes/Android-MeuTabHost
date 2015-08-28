@@ -1,30 +1,31 @@
 <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/otabhost"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:id="@+id/Layout01"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <TabWidget
             android:id="@android:id/tabs"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"></TabWidget>
 
         <FrameLayout
             android:id="@android:id/tabcontent"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:id="@+id/home"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
 
+                <!--
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -33,27 +34,28 @@
                     android:text="HOME"
                     android:id="@+id/tvHome"
                     android:layout_gravity="center_horizontal" />
+                    -->
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/procurar"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="PROCURAR"
+                    android:text="PROCURAR!!!"
                     android:id="@+id/tvProcurar"
                     android:layout_gravity="center_horizontal" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/camera"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="wrap_content"
@@ -66,8 +68,8 @@
 
             <LinearLayout
                 android:id="@+id/seguir"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="wrap_content"
@@ -80,8 +82,8 @@
 
             <LinearLayout
                 android:id="@+id/perfil"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="wrap_content"
